@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.title {
+    text-align: center;
+    margin-top: 85px;
+}
+.title h2 {
+    font-weight: 275;
+    font-size: 36px;
+    line-height: 54px;
+    color: #4D4F62;
+}
+.title h1 {
+    margin-bottom: 13px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: #4D4F62;
+}
+.title p {
+    margin: auto;
+    width: 550px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    opacity: 0.5;
+    color: #4D4F62;
+}
+.box {
+    position: relative;
+    width: 300px;
+    height: 230px;
+    padding: 32px;
+    border-radius: 8px;
+    box-shadow: 0 15px 30px -11px #83A6D280;
+}
+.boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 65px;
+}
+.box h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4D4F62;
+}
+.box p {
+    margin-top: 6px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    color: #4D4F62;
+    opacity: 0.5;
+}
+.box svg {
+    position: absolute;
+    top: 62%;
+    right: 10%;
+    width: 44px;
+
+}
+.supervisor {
+    border-top: 4px solid #44D3D2;
+}
+.builder {
+    border-top: 4px solid #EA5454;
+}
+.karma {
+    margin-top: 30px;
+    border-top: 4px solid #FCAE4A;
+}
+.calculator {
+    border-top: 4px solid #549EF2;
+}
+@media (max-width: 1200px) {
+    .box {
+        position: relative;
+        width: 245px;
+        height: 200px;
+    }
+    .boxes {
+        gap: 15px;
+    }
+    .karma {
+        margin-top: 15px;
+    }
+}
+@media (max-width: 768px) {
+    .boxes {
+        display: flex;
+        flex-direction: column;
+    }
+    .title h2 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .title h1 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .title p {
+        width: 311px;
+    }
+}
